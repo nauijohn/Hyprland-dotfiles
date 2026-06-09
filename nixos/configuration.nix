@@ -107,7 +107,7 @@
   libevdev
 ];
   
-  users.users.enzo = {
+  users.users.anthony = {
     isNormalUser = true;
     description = "Enzo";
     extraGroups = [ "networkmanager" "wheel" "docker" ];

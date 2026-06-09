@@ -10,10 +10,8 @@
     <img src="https://img.shields.io/static/v1?label=Nix Flake&message=Check&style=flat&logo=nixos&colorA=24273A&colorB=9173ff&logoColor=CAD3F5">
 </p>
 
-
 <p align="center">
-<a href="https://nixos.org/"><img src="https://img.shields.io/badge/NixOS-Unstable-informational.svg?style=flat&logo=nixos&logoColor=CAD3F5&colorA=24273A&colorB=8AADF4"></a> 
-
+<a href="https://nixos.org/"><img src="https://img.shields.io/badge/NixOS-Unstable-informational.svg?style=flat&logo=nixos&logoColor=CAD3F5&colorA=24273A&colorB=8AADF4"></a>
 
 <p align="center"><img src="https://i.imgur.com/NbxQ8MY.png" width=600px></p>
 
@@ -21,15 +19,14 @@
 
 ### Apps:
 
-|                          |             NixOS 23.11               |
-|--------------------------|:-------------------------------------:|
-| **Desktop Environment**  |   [Hyprland](https://hyprland.org)      |
-| **Terminal Emulator**    |   [Cool-Retro-Term](https://github.com/Swordfish90/cool-retro-term) |
-| **Display Server**       |   [Wayland](https://wayland.freedesktop.org)     |
-| **Application Launcher** |   [Rofi](https://github.com/davatorium/rofi)  |
-| **Shell**                |   [Zsh](https://zsh.sourceforge.io)   |
-| **Text Editor**          |   [Neovim](https://neovim.io)         |
-
+|                          |                            NixOS 23.11                            |
+| ------------------------ | :---------------------------------------------------------------: |
+| **Desktop Environment**  |                 [Hyprland](https://hyprland.org)                  |
+| **Terminal Emulator**    | [Cool-Retro-Term](https://github.com/Swordfish90/cool-retro-term) |
+| **Display Server**       |            [Wayland](https://wayland.freedesktop.org)             |
+| **Application Launcher** |            [Rofi](https://github.com/davatorium/rofi)             |
+| **Shell**                |                 [Zsh](https://zsh.sourceforge.io)                 |
+| **Text Editor**          |                    [Neovim](https://neovim.io)                    |
 
 ### DE/WM
 
@@ -41,6 +38,7 @@ Desktop Environment:
 <p align="center"><img src="https://i.imgur.com/0Lq4rOe.png"></p>
 
 ## Nix Dotfiles Directory Structure
+
 ```
 ├── home
 │  ├── programs
@@ -69,6 +67,7 @@ Desktop Environment:
 ### Installation
 
 0. Download the project:
+
 ```bash
  $ git clone https://github.com/HeinzDev/Nix-Dotfiles.git | cd Hyprland-dotfiles
 ```
@@ -79,9 +78,10 @@ Desktop Environment:
 $ chmod +x install.sh
 $ ./install.sh
 ```
+
 or
 
 ```bash
 $ cd Hyprland-dotfiles
-$ sudo nixos-rebuild switch --flake .#enzo
+$ sudo nixos-rebuild switch --flake .#anthony
 ```
